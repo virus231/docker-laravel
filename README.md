@@ -5,3 +5,6 @@
     1. docker-compose up -d server php  mysql
     2. docker-compose up -d server -- depends_on php mysql
     3. docker-compose up -d --build server
+
+### **Adding More Utility Containers**
+    1. docker-compose run --rm artisan migrate
